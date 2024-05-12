@@ -624,7 +624,7 @@ def init_app():
 
     script_directory = script_directory+'\\'
 
-    config = read_config(script_directory+"test_config.ini")
+    config = read_config(script_directory+"config.ini")
  
     development=True
 
