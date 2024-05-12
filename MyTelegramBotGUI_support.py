@@ -150,6 +150,7 @@ def client(e):
                 Client_Connected = True
                 logger.info("GUI: Client connected")
             event_is_set = e.wait()
+            
             e.clear()
             msg = json.dumps(App_flags)
             logger.debug('GUI: Send to server: ' + msg)
